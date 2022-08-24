@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/bf172535b5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>My profile</title>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header class="header">
+      <img src="./HatchfulExport-All/logo_transparent.png" alt="ロゴ" />
+
+      <nav>
+        <ul class="header-list">
+          <li class="header-item"><a href="#About">ABOUT ME</a></li>
+          <li class="header-item"><a href="#Skills">SKILLS</a></li>
+          <li class="header-item"><a href="#Works">WORKS</a></li>
+          <li class="header-item"><a href="#Contact">CONTACT</a></li>
+          <li class="header-item">
+            <a href="https://twitter.com/?lang=ja" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="header-item">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="header-item">
+            <a href="https://ja-jp.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- トップ -->
+    <img
+      src="./HatchfulExport-All/IMG_5738.JPG"
+      alt="メイン画像"
+      class="top-img"
+    />
+
+    <!-- メイン -->
+    <main class="main">
+      <h2>ABOUT ME</h2>
+      <!-- about -->
+      <section class="about" id="About">
+        <img src="./HatchfulExport-All/IMG_2931.png" alt="私" class="icon" />
+        <ul class="about-item">
+          <li>Name</li>
+          <p>大城　未有希</p>
+          <li>Likes</li>
+          <p>食べること、寝ること、お酒、猫、生き物、漫画、音楽、カメラ</p>
+          <li>Skills</li>
+          <p>普通自動車運転免許、日本語ワープロ試験準2級合格</p>
+          <li>Comment</li>
+          <p>
+            現在フリーターです。<br />
+            前職はコールセンターだったり、居酒屋やレストランでホールスタッフなどを経験、<br />
+            ガールズバーでも現役で働いてたりします(^O^)<br />
+            人見知りしてしまうのが難点ですが、いろんな方のお話を聞くのが好きです(*^^*)！<br />
+          
+          </p>
+        </ul>
+      </section>
+      <!-- スキル -->
+      <section class="skills" id="Skills">
+        <h2>SKILLS</h2>
+      </section>
+      <!-- コンタクト -->
+      <section class="works" id="Works"></section>
+      <h2>WORKS</h2>
+
+      <!-- contact -->
+      
+      <section class="contact" id="Contact">
+        <h2>CONTACT</h2>
+
+
+        <form action="/form.php" method="post">
+          <div>
+            <label for="name">名前</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="email">メールアドレス</label>
+            <input type="mail" id="email" name="email" />
+          </div>
+          <div>
+            <label for="message">内容</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <input type="submit" value="送信する" />
+        </form>
+      </section>
+    </main>
+
+    <!-- フッター -->
+
+    <footer class="footer">
+      <nav>
+        <ul class="footer-list">
+          <li class="footer-item"><a href="#About">ABOUT ME</a></li>
+          <li class="footer-item"><a href="#Skills">SKILLS</a></li>
+          <li class="footer-item"><a href="#Works">WORKS</a></li>
+          <li class="footer-item"><a href="#Contact">CONTACT</a></li>
+          <li class="footer-item">
+            <a href="https://twitter.com/?lang=ja" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="footer-item">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="footer-item">
+            <a href="https://ja-jp.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy;2022 Miyuki's Profile</p>
+    </footer>
+  </body>
+</html>
